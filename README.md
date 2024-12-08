@@ -21,15 +21,17 @@ mkdir -p $HOME/software/logs/
 
 Copy `lockscreen.sh` and `lockscreen2.sh` onto `$HOME/software/code/`
 
-Add a startup program in Startup Applications with the command `systemctl --user start badlogin.service` as shown below
+Add a startup program in Startup Applications with the command `$HOME/software/code/lockscreen.sh` as shown below
 
 ![startup applications app](startup_applications.jpg)
 
 ![Adding a startup program](adding.jpg)
 
-Troubleshooting
+Log out and log in again to make the changes take effect.
 
+## Troubleshooting
 
+Check `$HOME/software/logs/badlogin_desktop.log`
 
 ## License
 
