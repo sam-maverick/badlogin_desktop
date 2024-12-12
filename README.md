@@ -21,6 +21,10 @@ mkdir -p $HOME/software/logs/
 
 Copy `lockscreen.sh` and `lockscreen2.sh` onto `$HOME/software/code/`
 
+`chmod u+x $HOME/software/code/lockscreen.sh`
+
+`chmod u+x $HOME/software/code/lockscreen2.sh`
+
 Add a startup program in the Startup Applications app with the command `$HOME/software/code/lockscreen.sh` as shown below
 
 ![startup applications app](startup_applications.jpg)
