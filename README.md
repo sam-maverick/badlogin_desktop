@@ -11,13 +11,9 @@ I you don't know what is your display manager, run the command `cat /etc/X11/def
 
 ## Installation
 
-```
-mkdir -p $HOME/software/code/
-```
+`mkdir -p $HOME/software/code/`
 
-```
-mkdir -p $HOME/software/logs/
-```
+`mkdir -p $HOME/software/logs/`
 
 Copy `lockscreen.sh` and `lockscreen2.sh` onto `$HOME/software/code/`
 
