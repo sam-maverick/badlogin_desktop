@@ -70,7 +70,7 @@ else
 		fi
 
 		if [ "$SHOWWARNING" == "true" ] ; then 
-	        echo "$(date) Alerting via popup window" >> $HOME/software/code/lockscreen.log
+	        echo "$(date) Alerting via popup window: $MESSAGE" >> $HOME/software/code/lockscreen.log
 			zenity --no-wrap --warning --title="$TITLE" --text="$MESSAGE";
 			echo "$TITLE"
 			echo "$MESSAGE"
